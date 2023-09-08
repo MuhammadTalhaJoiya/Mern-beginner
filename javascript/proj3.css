@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    width: 50%;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+button{
+    padding: 10px;
+    width: 15%;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.paras{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.para{
+    border: 2px solid red;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}

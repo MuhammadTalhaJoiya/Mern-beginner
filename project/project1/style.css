@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+.content{
+    display: flex;
+}
+.h1,.h2,.h3,.h4,.h5{
+    margin: 0.5vmax;
+}

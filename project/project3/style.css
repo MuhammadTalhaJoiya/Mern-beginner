@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* color: white; */
+}
+.container{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    padding: 1rem;
+    font-size: 2rem;
+}
+button{
+    padding: 1.5rem;
+    cursor: pointer;
+    border-radius: 2vmax;
+    box-shadow: 0 0 10px black;
+    border: none;
+}
+button:hover{
+    background-color: rgb(92, 91, 91);
+}
+.flex{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

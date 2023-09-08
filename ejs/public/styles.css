@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    margin: 5vmax;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    margin: 1vmax;
+}
+
+.btn{
+    text-align: center;
+    margin: 1vmax;
+    cursor: pointer;
+
+}
+input{
+    margin: 1vmax;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="form">
+            <h1>Form</h1>
+            <form action="/register" method="post">
+                <div>
+                    <input type="text" name="username" placeholder="Enter USername">
+
+                </div>
+                <div>
+                    <input type="text" email="email" placeholder="enter Email">
+                </div>
+                <div>
+                    <input type="text" password="password" placeholder="Enter Password">
+                </div>
+                <div class="btn">
+                    <button type="submit" >Submit</button>
+                </div>
+            </form>
+        </div>
+    </div> -->
+    <form action="/login" method="post">
+        <!-- <input type="text" name="name" placeholder="Enter the name"> -->
+        <input type="email" name="email" placeholder="Enter the email">
+
+        <input type="password" name="password" placeholder="Enter the npassword">
+        <p><%=locals.messege%></p>
+        <button type="submit">Login</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>

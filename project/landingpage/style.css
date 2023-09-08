@@ -1,0 +1,91 @@
+body{
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 0px; */
+    margin: 0;
+    height: 110vh;
+    
+}
+header{
+    /* border: 2px solid red; */
+    padding: 30px;
+}
+.logo{
+    /* border: 2px solid green; */
+    width: 230px;
+    display: inline-block;
+    color: crimson;
+    font-size: 35px;
+}
+.navbar{
+    /* border: 2px solid yellow; */
+    /* width: 950px; */
+    /* height: 30px; */
+    /* padding: 5px; */
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    margin: 30px;
+    color: crimson;
+    font-size: 35px;
+    transition: all 0.5;
+    /* font-size: 40px; */
+}
+.navbar a:hover{
+    color: rgb(123, 24, 44);
+}
+div{
+    color: crimson;
+    /* border: 5px solid yellow; */
+}
+
+h1{
+    position: absolute;
+    left: 152px;
+    top: 317px;
+    /* border: 2px solid green; */
+    font-size: 54px;
+}
+h1+h3{
+    position: absolute;
+    left: 152px;
+    top: 404px;
+    color: aliceblue;
+    font-size: 34px;
+    /* border: 2px solid blue; */
+}
+h1+h3+p{
+    position: absolute;
+    left: 152px;
+    top: 482px;
+    /* border: 2px solid grey; */
+    width: 532px;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+h1+h3+p+button{
+    position: absolute;
+    left: 152px;
+    top: 685px;
+    color: red;
+    width: 105px;
+    background: #322f2f;
+    height: 39px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+h1+h3+p+button:hover{
+    background-color: rgb(123, 24, 44);
+    color: whitesmoke;
+}
+footer>div{
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0px;
+
+}

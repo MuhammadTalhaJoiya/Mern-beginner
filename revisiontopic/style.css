@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+form{
+    width: 65%;
+    margin: auto;
+    border: 2px solid red;
+    background-color: rgb(212, 212, 212);
+}
+h1{
+    text-align: center;
+    /* padding: 12px; */
+    font-size: 56px;
+}
+form div{
+    width: 50%;
+    margin:5px auto;
+    padding: 10px;
+    font-size: 30px;
+    /* border: 2px solid red; */
+}
+form input[type="text"],input[type="email"],input[type="mess"],input[type="number"],input[type="password"],select{
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* margin: auto; */
+    font-size: 20px;
+}
+input[type="submit"]{
+    display: block;
+    margin:20px auto;
+    width: 13%;
+    padding: 10px;
+    background-color: crimson;
+    color: black;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 9px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(208, 90, 113);
+}
+input[type="file"]{
+    font-size: 20px;
+}

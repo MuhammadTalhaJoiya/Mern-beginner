@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <form action="" method="post">
+        <h1>This is form</h1>
+        <div>
+            Name: <input type="text" name="text" id="Text" required  placeholder="Enter your name">
+        </div>
+        
+        <div>
+            Email: <input type="email" name="text" id="Text" required placeholder="Enter your email">
+        </div>
+        
+        <div>   
+            Message: <textarea name="mess" id="messege" cols="72" rows="10"></textarea>
+        </div>
+        
+        <div>
+            Number: <input type="number" name="num" id="Number" required  placeholder="Enter your number">
+        </div>
+        
+        <div>
+            Gender: <select name="usergender" id="gender" required>
+                <option value="">Choose one</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+            </select>
+        </div>
+        <div>
+            Frontend: <input type="checkbox" name="skills" id="typeofwork" required>
+            Backend: <input type="checkbox" name="skills" id="typeofwork" required>
+        </div>
+            
+        <div>
+            Cash: <input type="radio" name="payment" id="paymentmethod" required>
+            Bank: <input type="radio" name="payment" id="paymentmethod" required>
+        </div>
+        <div>
+            Passsword: <input type="password" name="password" id="password" required  placeholder="Enter your Passsword">
+        </div>
+        <div>
+            <input type="file" name="file" id="filename" >
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
+
+<!-- transition: all 0.3s;
+cursor: pointer;
+height: 30vmax;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 1vmax; -->
+
+
+<!-- display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: 100%;
+max-width: 80vw;
+margin: auto; -->
+

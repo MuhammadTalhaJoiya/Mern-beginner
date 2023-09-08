@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather1{
+    font-size: 2.5rem;
+    margin: 0.8vmax;
+
+}
+.weather2{
+    font-size: 1rem;
+    margin:0.8vmax;
+
+}
+.weather3{
+    font-size: 1rem;
+    margin: 0.8vmax;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    /* margin-bottom: 2vmax; */
+}
+form input{
+    width: 35%;
+    font-size: 1rem;
+
+}
+form button{
+    width: 10%;
+    cursor: pointer;
+}
+form button:hover{
+    /* width: 10%; */
+    background-color: aquamarine;
+}
